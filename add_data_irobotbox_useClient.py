@@ -16,9 +16,9 @@ def get_data(StartTime,EndTime,NextToken):
         <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
           <soap:Body>
             <GetOrders xmlns="http://tempuri.org/"><orderRequest>
-                <CustomerID>1275</CustomerID>
-                <UserName>S046</UserName>
-                <Password>Jw369</Password>
+                <CustomerID>*change yours*</CustomerID>
+                <UserName>*change yours*</UserName>
+                <Password>*change yours*</Password>
                 <StartTime>{StartTime}</StartTime>
                 <EndTime>{EndTime}</EndTime>
                 <NextToken>{NextToken}</NextToken>
